@@ -1,0 +1,38 @@
+.searchBar
+{
+  padding: 2rem 1rem;
+
+}
+.searchBar input
+{
+  font-size: 1rem;
+  width: 1000px;
+  height: 30px;
+  margin-left: 200px;
+  border-radius: 50px; 
+  box-shadow: 0 5px 10px black;
+
+}
+.Movie
+{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+    box-shadow: 0 5px 10px black;
+    width: 500px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    
+}
+.Movie img
+{
+  width: 400px;
+  padding: 40px;
+}
